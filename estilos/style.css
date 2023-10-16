@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(107, 96, 136);
+}
+
+#formulario{
+    background-color: red;
+    width: 80vw;
+    height: 80vh;
+    border-radius: 20px;
+}
+
+#bot-enviar{
+    background-color: blue;
+
+}
+#imagem-2{
+    height: 40%;
+    background:url(../imagens/pexels-frans-van-heerden-1022692.jpg) no-repeat;
+    background-size: auto;
+    background-position: center center;
+    border-radius: 20px 20px 0px 0px;
+
+}
