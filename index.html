@@ -6,27 +6,49 @@
     <title>TELA DE MENU</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 <body>
     <div id="formulario">
         <div id="imagem-2">
             
         </div>
-        <form action="cadastro.php">
-            <div id="usuario">
-                <label for="id-usuario">USUARIO</label>
-                <input type="text" name="usuario" id="id-usuario" required minlength="5">
-            </div>
-            <div>
-                <label for="id-senha">SENHA</label>
-                <input type="password" name="senha" id="id-senha" required maxlength="15" minlength="8">
-            </div>
+        
 
-            <div id="bot-enviar">
-                <input type="submit" value="enviar">
-            </div>
+        <div>
+            <h1>Login</h1>
+            <p>
+                olá, seja bem vindo(a) novamente.  Faça login para acessar sua conta e configurar seu ambiente.
+            </p>
 
-        </form>
+            <form action="cadastro.php">
+                <div class="flex-container">
+                    <label for="id-login">
+                        <img src="imagens/account_circle_FILL0_wght400_GRAD0_opsz24.png" alt="circle_fill">
+                    </label>
+                    <input class="caixa-login" type="email" name="login" id="id-login" required size="20">
+                </div>
+
+
+
+                <div id="flex-container">
+                    <label for="id-senha">
+                        <img src="imagens/key_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                    </label>
+                    
+                    
+                    <input class="caixa-login" type="password" name="senha" id="id-senha" required maxlength="15" minlength="8" size="20">
+                </div>
+
+
+                <div id="bot-enviar">
+                    <input type="submit" value="enviar">
+                </div>
+            </form>
+
+        </div>
+
     </div>
     
 </body>
