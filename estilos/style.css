@@ -1,10 +1,20 @@
 @charset "UTF-8";
 
 
+:root{
+    --cor0: #C8C1B1;
+    --cor1: #7A7469;
+    --cor2: #48443A;
+    --cor3: #48443a50;
+}
+
+
 *{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 0px;
     margin: 0px;
     transition: .1s;
+    box-sizing: border-box;
 }
 
 body{
@@ -12,49 +22,52 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #6b6088;
+    background-color: var(--cor0);
+    
 }
 
 #formulario{
-    box-shadow: 0px 0px 9px #471847;
-    background-color: white;
+    box-shadow: 0px 0px 9px var(--cor2);
+    background-color: var(--cor1);
     width: 90vw;
     height: 80vh;
     border-radius: 20px;
 
 }
 
-#bot-enviar{
-    background-color: blue;
-
-}
-#imagem-2{
+#sessao-imagem{
     height: 40%;
     background:url(../imagens/pexels-frans-van-heerden-1022692.jpg) no-repeat;
     background-size: auto;
     background-position: center center;
     border-radius: 20px 20px 0px 0px;
+    width: 100%;
 
 }
 
+#sessao-login{
+    height: 60%;
+    width: 100%;
+}
 
-.flex-container {
+
+#formulario-login {
     margin: auto;
     width: 250px;
     display: flex;
     align-items: center; 
     justify-content: space-evenly;
-    background-color: rgba(208, 208, 255, 0.705);
+    background-color: var(--cor3);
     padding: 8px;
     border-radius: 0px 15px 0px 0px;
 }
-#flex-container {
+#formulario-senha {
     margin: auto;
     width: 250px;
     display: flex;
     align-items: center; 
     justify-content: space-evenly;
-    background-color: rgba(208, 208, 255, 0.705);
+    background-color: var(--cor3);
     padding: 8px;
     border-radius: 0px 0px 0px 15px;
 }
@@ -65,10 +78,9 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     border: none;
-    box-shadow: 2px 5px 10px rgba(77, 0, 77, 0.507);
+    box-shadow: 2px 5px 10px var(--cor2);
     padding: 5px;
     border-bottom: 2px solid black;
-    background-color: rgba(135, 135, 196, 0.705);
     border-radius: 3px;
 }
 
@@ -84,11 +96,4 @@ p{
     margin: auto;
     font-weight: bold;
     text-align: center;
-}
-
-
-
-
-#bot-entrar{
-    
 }

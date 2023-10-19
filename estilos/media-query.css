@@ -1,37 +1,30 @@
 @charset "UTF-8";
-@media screen and (max-width: 768px) and (min-width: 481px) {
+@media screen and (min-width: 768px) {
 
-    .flex-container{
-        width: 68vw;
-        height: 75px;
-        justify-content: center;
+    *{
+        overflow: hidden;
     }
     
-    #flex-container{
-        width: 68vw;
-        height: 75px;
-        justify-content: center;
-        
+    body #formulario{
+        display: flex;
+        border-radius: 20px;
     }
-
-    .caixa-login{
-        width: 50vw;
-        height: 50px;
-        border-radius: 10px;
-        border-bottom: 4px solid rgb(105, 0, 105);
-        border-top: 4px solid rgb(105, 0, 105);
+    #sessao-imagem{
+        height: 100%;
+        width: 70%;
+        border-radius: 0px;
     }
-    .caixa-login:hover{
-        border: 5px solid rgb(105, 0, 105);
-        height: 50px;
+    
+    #sessao-login{
+        width: 100%;
+        height: 100%;
     }
-
-    img{
-        width: 30px;
-        padding: 15px;
+    
+    #formulario-login{
+        width: 70%;
     }
-
-
-
+    #formulario-senha{
+        width: 70%;
+    }
 
 }
