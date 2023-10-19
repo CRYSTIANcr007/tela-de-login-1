@@ -97,3 +97,24 @@ p{
     font-weight: bold;
     text-align: center;
 }
+
+
+#bot-entrar{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;;
+    margin: auto;    
+    font-size: 1em;
+    width: 70%;
+    height: 30px;
+    border: none;
+    background-color: var(--cor2);
+    color: var(--cor0);
+}
+
+#bot-entrar:hover{
+    color: var(--cor2);
+    background-color: var(--cor0);
+    
+}
