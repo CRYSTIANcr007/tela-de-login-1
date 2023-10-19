@@ -22,12 +22,12 @@
                 olá, seja bem vindo(a) novamente.  Faça login para acessar sua conta e configurar seu ambiente.
             </p>
 
-            <form action="cadastro.php">
+            <form action="cadastro.php" autocomplete="on">
                 <div id="formulario-login">
                     <label for="id-login">
                         <img src="imagens/account_circle_FILL0_wght400_GRAD0_opsz24.png" alt="circle_fill">
                     </label>
-                    <input class="caixa-login" type="email" name="login" id="id-login" required size="20">
+                    <input class="caixa-login" type="email" name="login" id="id-login" required size="20" placeholder=" User" autocomplete="email">
                 </div>
 
 
@@ -37,8 +37,7 @@
                         <img src="imagens/key_FILL0_wght400_GRAD0_opsz24.png" alt="">
                     </label>
                     
-                    
-                    <input class="caixa-login" type="password" name="senha" id="id-senha" required maxlength="15" minlength="8" size="20">
+                    <input class="caixa-login" type="password" name="senha" id="id-senha" required maxlength="15" minlength="8" size="20" placeholder=" Password" autocomplete="current-password">
                 </div>
 
 
